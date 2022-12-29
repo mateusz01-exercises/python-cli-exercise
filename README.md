@@ -1,8 +1,6 @@
 # Python CLI Exercise v1
 Your task will be to create **CLI** (Command Line Interface) application for **company employees management**.
 
----
-
 ## Functionalities
 1. Saving employee data to the file.
 2. Reading list of all employees data from file and displaying to the user.
@@ -14,9 +12,7 @@ Your task will be to create **CLI** (Command Line Interface) application for **c
 8. Reading occurrence count of each employee name by processing information from the file and displaying to the user.
 9. Exiting app.
 
----
-
-Requirements:
+## Requirements:
 - Employee data should be kept in **space separated** format:
     ```
     first_name last_name age salary
@@ -79,13 +75,9 @@ Requirements:
     Provide option number: [you need to gather user input here]
     ```
 
----
-
 ## Assumptions
 - You can assume that file already exists in directory from where application script is being run. You can assume it is named "employees_data.txt" (remember to create this file manually before running app)
 - You can assume that each employee data record is just a list of 4 elements when processing file data in your application (you do not need to use objects and classes)
-
----
 
 ## Tips
 - What kind of loop would be the best for exiting only if stated explicitly (also - is it possible to run loop infinitely and is this observation beneficial in case of our app)?
